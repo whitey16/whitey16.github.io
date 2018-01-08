@@ -1,0 +1,145 @@
+/*additional sytles*/
+
+.app-body {
+  position: relative;
+  top: 70px;
+}
+.list {
+  width: 100%
+}
+.list-head h2 {
+  font-size: 46px;
+  font-weight: 300;
+  color: rgb(36, 119, 179)
+}
+.list-head p {
+  font-weight: 300;
+  margin-bottom: 2rem;
+  font-size: 1.15rem;
+}
+
+#root .container {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+table thead tr {
+  border-top: none;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+table thead tr td:active {
+  background-color: orange;
+}
+
+table tbody tr:hover {
+  background-color: #e8e8e8;
+}
+
+/* table td:first-child {
+  width: 25%;
+}
+
+table tr * {
+  width: 17.5%;
+}
+table th:first-child {
+  width: 25%;
+} */
+
+table tr td,
+table tr th {
+  width: 17.5%;
+}
+
+/* table .company-block .logo-block {
+  width: 15%;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+table .logo-block img {
+  width: 100%;
+  height: auto;
+} */
+
+.company-block {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: rgb(36, 119, 179);
+}
+.company-info {
+  width: 100%;
+  position: relative;
+}
+
+th, td {
+  padding: 10px;
+}
+table {
+  width: 100%;
+}
+table tr {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  line-height: 1;
+  justify-content: space-between;
+  border-top: 1px solid rgb(183, 189, 196);
+  height: 4.33333rem;
+}
+
+input {
+  border-top-style: solid;
+  border-top-color: rgb(238,238,238);
+  border-left-style: solid;
+  border-left-color: rgb(238,238,238);
+}
+
+table.dataTable thead th {
+    position: relative;
+    background-image: none !important;
+    /* height: 4.33333rem; */
+}
+
+table.dataTable thead th.sorting:after,
+table.dataTable thead th.sorting_asc:after,
+table.dataTable thead th.sorting_desc:after {
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    display: block;
+    font-family: FontAwesome;
+}
+
+table.dataTable thead th.sorting:after {
+    content: "\f0dc";
+    color: black;
+    font-size: 0.8em;
+    padding-top: 0.12em;
+}
+table.dataTable thead th.sorting_asc:after {
+    content: "\f0de";
+}
+table.dataTable thead th.sorting_desc:after {
+    content: "\f0dd";
+}
+table.dataTable thead th.sorting_asc,
+table.dataTable thead th.sorting_desc {
+	background-color: orange;
+}
+div#iframe-container {
+  padding: 0;
+  border: none;
+}
+.info-panel {
+  /* background-color: blue; */
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+  text-align: right;
+}

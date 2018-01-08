@@ -1,0 +1,95 @@
+
+#unicorns table thead tr {
+  border-top: none;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+#unicorns table thead tr td:active {
+  background-color: orange;
+}
+#unicorns table tbody tr:hover {
+  background-color: #e8e8e8;
+}
+#unicorns table td:first-child {
+  width: 25%;
+}
+#unicorns table tr * {
+  width: 17.5%;
+}
+#unicorns table th:first-child {
+  width: 25%;
+}
+#unicorns table tr * {
+  width: 17.5%;
+}
+#unicorns table .company-block .logo-block {
+  width: 15%;
+  height: auto;margin-right: 0.5rem;
+}
+#unicorns table .logo-block img {
+  width: 100%;
+  height: auto;
+}
+#unicorns .company-block {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: rgb(36, 119, 179);
+}
+#unicorns .company-info {
+  width: 100%;
+  position: relative;
+}
+#unicorns th, td {
+  padding: 10px;
+}
+#unicorns table {
+  width: 100%;
+}
+#unicorns table tr {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  line-height: 1;
+  justify-content: space-between;
+  border-top: 1px solid rgb(183, 189, 196);
+  height: 4.33333rem;
+}
+#unicorns input {
+  border-top-style: solid;
+  border-top-color: rgb(238,238,238);
+  border-left-style: solid;
+  border-left-color: rgb(238,238,238);
+}
+#unicorns table.dataTable thead th {
+    position: relative;
+    background-image: none !important;
+}
+#unicorns table.dataTable thead th.sorting:after,
+#unicorns table.dataTable thead th.sorting_asc:after,
+#unicorns table.dataTable thead th.sorting_desc:after {
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    display: block;
+    font-family: FontAwesome;
+}
+#unicorns table.dataTable thead th.sorting:after {
+    content: "\f0dc";
+    color: black;
+    font-size: 0.8em;
+    padding-top: 0.12em;
+}
+#unicorns table.dataTable thead th.sorting_asc:after {
+    content: "\f0de";
+}
+#unicorns table.dataTable thead th.sorting_desc:after {
+    content: "\f0dd";
+}
+#unicorns table.dataTable thead th.sorting_asc,
+#unicorns table.dataTable thead th.sorting_desc {
+	background-color: orange;
+}

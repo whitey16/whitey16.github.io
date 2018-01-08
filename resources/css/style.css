@@ -1,0 +1,459 @@
+option > h4 {
+    font-size: 17px;
+}
+body {
+    border-radius: 0px;
+}
+h1 {
+    margin-top:0;
+}
+#title {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -14px;
+}
+.dataviz-title {
+    pointer-events: none;
+}
+#dataviz-header {
+    height: 160px;
+    width: 100%;
+}
+.header-post #dataviz-header {
+    height: 80px;
+}
+.header {
+    background-color: #486A90;
+    height: 160px;
+    position: relative;
+    color: white;
+}
+.header-post {
+    height: 80px;
+}
+.header a:hover, .header a {
+    text-decoration: none;
+}
+.header h1{
+    color: white;
+    display: inline;
+    text-transform: uppercase;
+    font-size: 120px;
+    line-height: 103px;
+    vertical-align: middle;
+    margin-right: 50px;
+    white-space: nowrap;
+}
+.header h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 56px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+}
+.header h3 {
+	font-family: "Museo Slab";
+    display: inline;
+    font-weight: 100;
+}
+
+.image {
+    height: 248px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+        -webkit-box-shadow: 0 0 5px 2px #DDD;
+    -ms-box-shadow: 0 0 5px 2px #DDD;
+    -moz-box-shadow: 0 0 5px 2px #DDD;
+    box-shadow: 0 0 5px 2px #DDD;
+}
+.logo {
+    margin-top: -16px;
+    height: 50px;
+}
+.navbar-btn {
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  margin-left: 8px;
+  font-weight: bold;
+}
+.navbar-nav > li > a {
+  color: #476990;
+  letter-spacing: .1em;
+  font-size: 15px;
+}
+.navbar {
+  text-transform: uppercase;
+  border-radius: 0;
+  font-weight: bold;
+  margin-bottom: 0;
+  background-color: white;
+  border-bottom: 1px solid black;
+    /*box-shadow: 0 0 30px -10px #000000;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);*/
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    padding-top: 17px;
+    padding-bottom: 13px;
+}
+.nav {
+    margin-left: 60px;
+}
+.marketing {
+    color: #333;
+}
+.marketing:hover {
+    text-decoration: none;
+    color:black;
+}
+.marketing img {
+    width: 100%;
+}
+.demo {
+    background-color: rgb(247, 148, 51);
+    display: block;
+    padding: 10px;
+    color: white;
+    width: 150px;
+    margin: 0 auto;
+}
+.demo:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #eb8e31;
+}
+.footer {
+    color: white;
+    background: #474747;
+    padding-top: 50px;
+    font-size: 16px;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    padding-top: 71px;
+}
+html,
+body {
+    height: 100%;
+    font-size: 15px;
+    color: #333;
+}
+.blockquote-reverse {
+    border-right-color: #c9c9c9;
+}
+
+.container-non-responsive {
+  /* Margin/padding copied from Bootstrap */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  /* Set width to your desired site width */
+  width: 1170px;
+}
+.addthis_sharing_toolbox, .article-title {
+    display:inline-block;
+}
+.article-title {
+	font-family: "Museo Slab";
+    color: #476990;
+}
+
+.post-outer {
+    position: static;
+}
+.navbuttons {
+    display: none;
+}
+.navbuttons-desktop {
+    display: block;
+}
+@media(min-width: 768px) {
+    .navbuttons {
+        display: block;
+    }
+    .navbuttons-desktop {
+        display: none;
+    }
+}
+@media(min-width:992px) {
+    .post-outer {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .navbuttons {
+        display: none;
+    }
+    .navbuttons-desktop {
+        display: block;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+.post-inner {
+    width: 70%;
+    padding-bottom: 10px;
+}
+.post h3 {
+    font-family: "Museo Slab";
+}
+.post .row {
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid white;
+    transition: border-color .25s ease-in-out;
+   -moz-transition: border-color .25s ease-in-out;
+   -webkit-transition: border-color .25s ease-in-out;
+}
+.post {
+    color: black;
+}
+.post:hover .row {
+    background-color: #F3F9FF;
+    border: 1px solid #cccccc;
+}
+.post:hover .post-description {
+    color: black;
+}
+.post-date {
+    font-size: 14px;
+    color: #999;
+}
+.tag-section {
+    font-family: "Museo Sans";
+    font-weight: 100;
+    color: #476990;
+    display: block;
+    border-bottom: 1px solid #999;
+    padding-bottom: 5px;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+#navigation ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+#navigation li:before {
+content: " | ";
+}
+
+#navigation li:first-child:before {
+content: none;
+}
+
+.footer-main-menu {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 30px;
+}
+.footer li {
+    margin-bottom: 20px;
+    list-style-position: inside;
+    line-height: 1.3;
+    list-style: none;
+}
+.footer ul {
+  padding-left: 0;
+}
+.footer h3 {
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Museo sans';
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: .1em;
+}
+.btn-free {
+    border-color: white;
+    width: 180px;
+}
+.footer a.btn-free:hover {
+    color: #666666;
+    background: #ffffff;
+}
+.footer .product-for li a, .footer .footer-menu li a {
+    font-weight: 100;
+}
+.footer-contacts {
+    background: #333;
+    margin-top: 153px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.footer .contact-us {
+    line-height: 1.5;
+    font-weight: 100;
+}
+.footer .copyright {
+    font-size: 11px;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    margin-top: 45px;
+}
+.footer a:hover {
+    color: #f79433;
+}
+.footer .footer-link-separator>li a {
+    font-size: 11px;
+    font-weight: 100;
+}
+.footer .footer-link-separator>li~li {
+    border-left: 1px solid #fff;
+}
+.footer .footer-link-separator>li {
+    display: inline;
+    float: left;
+    line-height: 10px;
+    padding: 0 5px;
+    margin: 0;
+}
+.footer .footer-link-separator {
+    width: 220px;
+    margin: 0 auto;
+    display: block;
+}
+.content-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.dropdown-menu {
+    padding: 10px 0 10px;
+    background: rgba(255, 255, 255, 0.95);
+    text-transform: uppercase;
+    border-radius: 0 0 2px 2px;
+    border: none;
+    box-shadow: none;
+    min-width: 250px;
+}
+.dropdown-menu li a {
+    display: block;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #476990;
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    transition: 0.4s;
+}
+.dropdown-menu li a:hover {
+  color: #3b5c83;
+  font-weight: 500;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  transition: 0.1s;
+}
+.navbar-toggle span {
+    background: #476990;
+    width: 38px;
+    height: 4px;
+    margin-top: 8px;
+    display: block;
+}
+.navbar-toggle {
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+.social {
+        border-radius: 2px;
+    font-family: icons;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #476990;
+    padding-top: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+    margin-right: 6px;
+}
+a.social:hover {
+    color: white;
+    background-color: #3b5c83;
+}
+.social-links {
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+.cookie-policy {
+  background: #476990;
+  position: relative;
+  z-index: 99;
+  float: none;
+  padding: 1px 0;
+  display: none;
+}
+.cookie-policy p {
+  color: #ffffff;
+  margin: 14px 0;
+  font-size: 11px;
+  float: none;
+  position: relative;
+  padding-right: 60px;
+}
+@media all and (max-width: 1199px) {
+  .cookie-policy p {
+    padding-right: 60px;
+  }
+}
+.cookie-policy p a {
+  color: #F4C779;
+  text-decoration: underline;
+  font-size: 11px;
+  float: none;
+}
+.cookie-policy p a:hover {
+  color: #F79433;
+}
+.cookie-policy p span.close-cookie-policy {
+  position: absolute;
+  right: 0;
+  top: 1px;
+  cursor: pointer;
+  float: none;
+}
+.cookie-policy p span.close-cookie-policy:before {
+  color: #F2C67A;
+}
+.cookie-policy p span.close-cookie-policy:hover:before {
+  color: #F59535;
+}
